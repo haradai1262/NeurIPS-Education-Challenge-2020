@@ -1,3 +1,19 @@
+.DS_Store
+.ipynb_checkpoints
+tmp
+_tmp
+notebook_output
+__pycache__/
+.vscode/
+secrets/
+secret/
+mlruns/
+
+data/
+starter_kit/
+submissions/
+submission_templates/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
