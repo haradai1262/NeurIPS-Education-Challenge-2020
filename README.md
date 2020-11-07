@@ -1,14 +1,19 @@
 # Solution of NeurIPS-Education-Challenge-2020
 
+This repository is the code for task 1 and task 2 solutions of The NeurIPS 2020 Education Challenge.
+The Task 3 code is located [here](https://github.com/haradai1262/NeurIPS-Education-Challenge-2020/tree/main/task3)
+
 ## overview
 
-...
+![overview](./_figure/overview.png)
 
 ## usage
 
 ### download data
 
-- ...
+- register codelab and join "Diagnostic Questions - The NeurIPS 2020 Education Challenge"
+  - https://competitions.codalab.org/competitions/25449
+- download data (https://competitions.codalab.org/competitions/25449#participate)
 
 ### run
 
@@ -17,14 +22,10 @@ $ cd ./run
 $ sh solution.sh
 ```
 
-## results
-
-- ...
-
 ## folder structure
 
 ```
-Diagnostic-Questions_NeurIPS-Education-Challenge-2020
+NeurIPS-Education-Challenge-2020
 
 ├── exp # deploy the experiment's config
      └── (experiment name)
@@ -36,21 +37,23 @@ Diagnostic-Questions_NeurIPS-Education-Challenge-2020
 ├── folds # save cross validation data table files
      └── (folds_name).csv
 
-├── input
-     └── public_dat
-         └── feature.name
-         └── train.data
-         └── validation.data
-         └── test.data
+├── data
+     └── trian_data
+          └── train_task_1_2.csv
+     └── metadata
+          └── answer_metadata_task_1_2.csv
+          └── question_metadata_task_1_2.csv
+          └── student_metadata_task_1_2.csv
 
 ├── run
      └── solution.sh
-     └── ensemble.py
 
-├── save
-     └── model/
-     └── model_predict/
-     └── predict/
+├── save # save experimental result files
+     └── (experiment name)/   
+          └── model_log/
+          └── model_weight/
+          └── preds_val_task1_{run_id}.csv
+          └── preds_test_task1_{run_id}.csv
 
 ├── src
      └── create_folds.py
@@ -63,5 +66,7 @@ Diagnostic-Questions_NeurIPS-Education-Challenge-2020
      └── utils_model.py
 
 ├── submission # save submission files
-     └── (submission_name).zip
+     └── (experiment name)/
+          └── submission_task1__auc{local auc}__acc{local acc}_th{selected threshold value}.zip
+          └── submission_task2__acc{local acc}.zip
 ```

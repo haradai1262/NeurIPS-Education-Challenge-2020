@@ -51,11 +51,7 @@ python ../src/train_xgb.py
 
 '''
 - Training the models using selected features
-  - feature select
-    - fs100:
-    - fs50: 
   - EXP_NAME: `task{1 or 2 or 12}_{model}_{feature_select}`
-    - task12 ... 
   - script: `train_{model}.py`
 '''
 
