@@ -3,19 +3,19 @@
 This repository is the code for task 1 and task 2 solutions of The NeurIPS 2020 Education Challenge.
 The Task 3 code is located [here](https://github.com/haradai1262/NeurIPS-Education-Challenge-2020/tree/main/task3)
 
-## overview
+## Overview
 
 ![overview](./_figure/overview.png)
 
-## usage
+## Usage
 
-### download data
+### Download dataset
 
 - register codelab and join "Diagnostic Questions - The NeurIPS 2020 Education Challenge"
   - https://competitions.codalab.org/competitions/25449
 - download data (https://competitions.codalab.org/competitions/25449#participate)
 
-### run
+### Run
 
 ```
 $ cd ./run
