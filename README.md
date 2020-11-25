@@ -70,3 +70,7 @@ NeurIPS-Education-Challenge-2020
           └── submission_task1__auc{local auc}__acc{local acc}_th{selected threshold value}.zip
           └── submission_task2__acc{local acc}.zip
 ```
+
+## Contact
+
+- Email: takehara-d@aidemy.co.jp (Daichi Takehara)
