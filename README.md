@@ -3,6 +3,15 @@
 This repository is the code for task 1 and task 2 solutions of The NeurIPS 2020 Education Challenge.
 The Task 3 code is located [here](https://github.com/haradai1262/NeurIPS-Education-Challenge-2020/tree/main/task3)
 
+## Competition results
+
+- Task 1 (Predict Student Responses – Right or Wrong) - 1st place
+- Task 2 (Predict Student Responses – Answer Prediction) - 2nd place
+- Task 3 (Global Question Quality Assessment) - 1st place (In this task there was a four-way tie.)
+- Conbined - 1st place
+
+competition website: https://eedi.com/projects/neurips-education-challenge
+
 ## Overview
 
 ![overview](./_figure/overview.png)
@@ -22,7 +31,7 @@ $ cd ./run
 $ sh solution.sh
 ```
 
-## folder structure
+## Folder structure
 
 ```
 NeurIPS-Education-Challenge-2020
