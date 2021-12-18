@@ -82,4 +82,4 @@ NeurIPS-Education-Challenge-2020
 
 ## Contact
 
-- Email: takehara-d@aidemy.co.jp (Daichi Takehara)
+- Email: daichi.takehara0730@gmail.com (Daichi Takehara)
